@@ -1,10 +1,10 @@
 var express = require('express');
 var router = express.Router();
-var {models} = require('../model/model.js');
+var {models} = require('../model.js');
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Quiz' });
 });
 
 
