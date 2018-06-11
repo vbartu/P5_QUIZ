@@ -7,7 +7,6 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Quiz' });
 });
 
-
 router.get('/credits', function(req, res) {
   res.render('credits', { title: 'Express' });
 });
